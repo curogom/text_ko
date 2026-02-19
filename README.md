@@ -43,7 +43,7 @@ dependencies:
 
 ## Example
 
-![text_ko example](https://pub.dev/packages/text_ko/versions/0.1.2/gen-res/gen/example.webp)
+![text_ko example](https://raw.githubusercontent.com/curogom/text_ko/main/example.jpeg)
 
 ## Usage
 
@@ -139,7 +139,7 @@ dependencies:
 
 ### 예시
 
-![text_ko example](https://pub.dev/packages/text_ko/versions/0.1.2/gen-res/gen/example.webp)
+![text_ko example](https://raw.githubusercontent.com/curogom/text_ko/main/example.jpeg)
 
 ### 사용법
 
