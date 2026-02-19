@@ -1,0 +1,5 @@
+TextKo_plan.md
+build/
+.dart_tool/
+example/.dart_tool/
+text_ko.iml

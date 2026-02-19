@@ -1,0 +1,21 @@
+name: text_ko_example
+description: Example app for text_ko.
+publish_to: none
+version: 0.0.1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  text_ko:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
