@@ -1,6 +1,6 @@
 name: text_ko
 description: Korean-friendly text utilities for Flutter, including keep-all style word breaks and stable underline rendering.
-version: 0.1.2
+version: 0.1.3
 homepage: https://github.com/curogom/text_ko
 repository: https://github.com/curogom/text_ko
 issue_tracker: https://github.com/curogom/text_ko/issues

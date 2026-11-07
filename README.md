@@ -30,7 +30,7 @@ From pub.dev:
 
 ```yaml
 dependencies:
-  text_ko: ^0.1.2
+  text_ko: ^0.1.3
 ```
 
 For local development:
@@ -126,7 +126,7 @@ pub.dev에서 설치:
 
 ```yaml
 dependencies:
-  text_ko: ^0.1.2
+  text_ko: ^0.1.3
 ```
 
 로컬 개발 경로를 사용할 때:
