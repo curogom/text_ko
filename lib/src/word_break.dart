@@ -58,7 +58,10 @@ String _transformToken(
     return token;
   }
 
-  final List<String> clusters = token.characters.toList(growable: false);
+  // Drop joiners left by an earlier pass so repeated calls stay idempotent.
+  final List<String> clusters = token.characters
+      .where((String cluster) => cluster != joiner.value)
+      .toList(growable: false);
   if (clusters.length < 2) {
     return token;
   }

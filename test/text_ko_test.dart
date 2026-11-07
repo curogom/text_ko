@@ -21,6 +21,15 @@ void main() {
       expect(transformed.replaceAll('\u2060', ''), source);
     });
 
+    test('is idempotent with the default word joiner', () {
+      const String source = '새로운 메시지가 도착했습니다';
+
+      final String once = source.textKoKeepAll();
+
+      expect(once.textKoKeepAll(), once);
+      expect(once.contains('\u2060\u2060'), isFalse);
+    });
+
     test('skips tokens that contain emoji by default', () {
       const String source = '안녕 😀테스트 반가워';
 
